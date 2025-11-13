@@ -1,0 +1,82 @@
+# ============================
+# macOS / Sistema operativo
+# ============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================
+# Python / Entorno
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+*.env
+.env
+
+# Archivos de dependencias y build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================
+# Configuración / IDEs
+# ============================
+.vscode/
+.idea/
+*.iml
+
+# ============================
+# FastAPI / Uvicorn
+# ============================
+*.log
+*.pid
+
+# ============================
+# Archivos temporales
+# ============================
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================
+# Cachés y artefactos
+# ============================
+.cache/
+pytest_cache/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# ============================
+# Archivos de OS o editor
+# ============================
+.DS_Store
+*.DS_Store
+Desktop.ini
+
+# ============================
+# Archivos de entorno / llaves
+# ============================
+# Claves, tokens y variables de entorno
+.env
+.env.*
+*.key
+*.pem

@@ -1,0 +1,80 @@
+body {
+    background-color: #272822;
+    color: #f8f8f2;
+    font-family: 'Fira Code', monospace;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    color: #66d9ef;
+}
+
+textarea, input, select {
+    background-color: #3e3d32;
+    color: #f8f8f2;
+    border: 1px solid #75715e;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    font-family: 'Fira Code', monospace;
+}
+
+button {
+    background-color: #66d9ef;
+    color: #272822;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #a6e22e;
+    color: #272822;
+}
+
+/* 🔽 Botón de colapsar */
+.toggle-btn {
+    background-color: #3e3d32;
+    color: #a6e22e;
+    border: 1px solid #75715e;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.toggle-btn:hover {
+    background-color: #a6e22e;
+    color: #272822;
+}
+
+/* 🔽 Contenedor colapsable */
+.collapsible {
+    border-left: 3px solid #66d9ef;
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    background-color: #3e3d32;
+    border-radius: 8px;
+    transition: max-height 0.3s ease-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.markdown-output {
+    border-top: 1px solid #75715e;
+    padding-top: 1rem;
+}
+
+pre, code {
+    background-color: #3e3d32;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+}

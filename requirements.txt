@@ -1,0 +1,18 @@
+# Framework principal
+fastapi
+uvicorn
+# Plantillas HTML
+jinja2
+
+# Cliente Gemini (Google Generative AI)
+google-generativeai
+google-api-core
+
+# Renderizado de Markdown en HTML
+markdown2
+
+# Manejo de variables de entorno (.env)
+python-dotenv
+
+# Opcional: mejora la salida de errores en consola
+rich
